@@ -24,7 +24,7 @@ jobs:
 
     - name: Build with Maven
       run: mvn clean compile
-      working-directory: lab_12
+      working-directory: lab_13
 
     - name: Run Tests
       run: mvn test
